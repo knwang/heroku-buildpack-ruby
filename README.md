@@ -2,6 +2,8 @@
 
 This is a fork of the official [Heroku Ruby Buildpack](https://github.com/heroku/heroku-buildpack-ruby) to add auto generation of an Octopress static site during deploy.
 
+This means you don't have to run `rake generate` locally and commit the generated pages anymore. Heroku will run it for you.
+
 Compatible with Heroku's Cedar-14 Stack.
 
 # Usage:
